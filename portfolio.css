@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+#header{
+        width: 100%;
+        height: 100vh;
+        background-image: url(satoru-gojo-jujutsu-2880x1800-10828.png);
+        background-size: cover;
+
+    }
+#nav{
+    float: right;
+    padding: 10px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#nav ul li{
+    cursor: pointer;
+    display: inline;
+    list-style: none;
+    margin: 10px 15px;    
+}
+
+#nav ul li a{
+    color:#9c06b9;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+
+}
+
+#nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    background: white;
+    opacity: 70%;
+    left: 0px;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+#nav ul li a:hover::after{
+         width: 100%;
+}
+
+#text h2{
+    padding-left: 5%;
+    padding-top: 17%;
+    font-size: 30px;
+    color: #9c06b9;
+}
+
+#text p{
+    padding-left: 5%;
+    padding-top: 15px;
+    font-size:40px ;
+    color: white;
+}
+
+#about{
+    height: 100vh;
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#img{
+    flex-basis: 20%;
+}
+
+#img img{
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+    bottom: -10px;
+}
+
+#info{
+
+    flex-basis: 70%;
+    color: #9c06b9;
+    font-size: 30px;
+}
+
+#smallinfo{
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.tittle{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #9c06b9;
+    justify-items: 50px;
+}
+
+
+.t{
+    padding-top: 20px;
+    margin-right: 250px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.t::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    background: white;
+    opacity: 70%;
+    left: 0px;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.t:hover::after{
+    width: 100%;
+}
+
+.content ul li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 20px;
+    color: white;
+}
+
+.Acc{
+    font-size: 30px;
+    color: #9c06b9;
+    padding-top: 10px;
+    padding-left: 2.5%;
+    padding-bottom: 30px;
+}
+
+#Accomplish{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#con-c{
+    height: 3cm;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#Accomplish img{
+    height: 5cm;
+    width: 8cm;
+}
+
+#con-c p{
+    color: #9c06b9;
+    padding-top: 10px;
+}
+
+
+#intern{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#intern img{
+    height: 5cm;
+    width: 8cm;
+}
+
+#con-i{
+    height: 3cm;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#con-i p{
+    color: #9c06b9;
+    padding-top: 10px;
+}
+
+.right{
+    cursor: pointer;
+    margin-left: 5%;
+    color: #9c06b9;
+
+}
+.right a{
+    margin-left :5%;
+    padding: 10px;
+}
+#footer{
+    background-color: rgb(30, 37, 39);
+}
+
+    #Accomplish img:hover{
+    cursor: pointer;
+     width: 10cm;
+     height: 7cm;
+     transition: 1s;
+    }
+    #intern img:hover{
+        cursor: pointer;
+     width: 10cm;
+     height: 7cm;
+     
+
+    }
